@@ -1,0 +1,20 @@
+Source: dex
+Priority: extra
+Maintainer: James McCoy <jamessan@debian.org>
+Build-Depends: debhelper (>= 9), python3-dev
+Standards-Version: 3.9.6
+Section: x11
+Homepage: https://github.com/jceb/dex
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/dex.git
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/dex.git/
+
+Package: dex
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: generate and execute Application type .desktop files
+ DesktopEntry eXecution implements the Freedesktop.org autostart
+ specification, independent of any desktop or window manager environment.
+ Applications may be filtered based on the Desktop Environment advertised
+ in the .desktop file.
+ .
+ dex can also create a minimal .desktop file for a specified program.

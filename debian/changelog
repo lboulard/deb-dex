@@ -1,0 +1,5 @@
+dex (0.7-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #776033)
+
+ -- James McCoy <jamessan@debian.org>  Sun, 08 Feb 2015 21:31:03 -0500
