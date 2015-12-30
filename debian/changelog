@@ -1,3 +1,13 @@
+dex (0.7-2) unstable; urgency=medium
+
+  [ Scott Kitterman ]
+  * Change python3-dev build-dep to python3 since package is arch all
+    (Closes: #809437)
+  * Add explicit build-dep on dh-python since there is no guarantee python3
+    will always depends on it
+
+ -- James McCoy <jamessan@debian.org>  Wed, 30 Dec 2015 13:17:00 -0500
+
 dex (0.7-1) unstable; urgency=medium
 
   * Initial release. (Closes: #776033)
