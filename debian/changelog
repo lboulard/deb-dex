@@ -1,4 +1,4 @@
-dex (0.8.0-1) UNRELEASED; urgency=medium
+dex (0.8.0-1) unstable; urgency=medium
 
   [ upstream ]
   * Support Service type desktop files
@@ -7,7 +7,7 @@ dex (0.8.0-1) UNRELEASED; urgency=medium
   * Build-Depend on python3-sphinx to build the man page.
   * Declare compliance with policy 4.0.0, no changes needed.
 
- -- James McCoy <jamessan@debian.org>  Thu, 22 Jun 2017 21:36:59 -0400
+ -- James McCoy <jamessan@debian.org>  Thu, 22 Jun 2017 22:12:41 -0400
 
 dex (0.7-2) unstable; urgency=medium
 
