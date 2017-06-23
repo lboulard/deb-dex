@@ -5,9 +5,9 @@ include /usr/share/dpkg/pkg-info.mk
 %:
 	dh $@ --with python3
 
-# Nothing to build or clean
-override_dh_auto_build override_dh_auto_clean:
+override_dh_auto_build:
+	$(MAKE) VERSION=$(UPSTREAM_VERSION)
 
 override_dh_auto_install-indep:
 	$(MAKE) install VERSION=$(UPSTREAM_VERSION) PREFIX=/usr DESTDIR=$(CURDIR)/debian/dex MANPREFIX='$${PREFIX}/share/man'
-	rm -f $(CURDIR)/debian/dex/usr/share/doc/dex/LICENSE
+	rm -f $(CURDIR)/debian/dex/usr/share/doc/dex/LICENSE $(CURDIR)/debian/dex/usr/share/doc/dex/README.rst

@@ -3,6 +3,9 @@ dex (0.8.0-1) UNRELEASED; urgency=medium
   [ upstream ]
   * Support Service type desktop files
 
+  [ James McCoy ]
+  * Build-Depend on python3-sphinx to build the man page.
+
  -- James McCoy <jamessan@debian.org>  Thu, 22 Jun 2017 21:36:59 -0400
 
 dex (0.7-2) unstable; urgency=medium
