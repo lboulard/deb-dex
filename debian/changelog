@@ -1,3 +1,10 @@
+dex (0.8.0-1) UNRELEASED; urgency=medium
+
+  [ upstream ]
+  * Support Service type desktop files
+
+ -- James McCoy <jamessan@debian.org>  Thu, 22 Jun 2017 21:36:59 -0400
+
 dex (0.7-2) unstable; urgency=medium
 
   [ Scott Kitterman ]
