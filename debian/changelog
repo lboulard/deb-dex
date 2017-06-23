@@ -5,6 +5,7 @@ dex (0.8.0-1) UNRELEASED; urgency=medium
 
   [ James McCoy ]
   * Build-Depend on python3-sphinx to build the man page.
+  * Declare compliance with policy 4.0.0, no changes needed.
 
  -- James McCoy <jamessan@debian.org>  Thu, 22 Jun 2017 21:36:59 -0400
 
