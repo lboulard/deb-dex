@@ -1,5 +1,5 @@
 Source: dex
-Priority: extra
+Priority: optional
 Maintainer: James McCoy <jamessan@debian.org>
 Build-Depends:
   debhelper (>= 9),
